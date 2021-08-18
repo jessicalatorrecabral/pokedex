@@ -12,7 +12,7 @@ const Router = () => {
         <Switch>
             <Route exact path={'/'} component={HomePage}/>
             <Route exact path={'/pokedex'} component={PokedexPage}/>
-            <Route exact path={'/pokemon/:name'} component={PokemonDetailsPage}/>
+            <Route exact path={'/pokemon-:name'} component={PokemonDetailsPage}/>
             <Route component={ErrorPage}/>
         
         </Switch>

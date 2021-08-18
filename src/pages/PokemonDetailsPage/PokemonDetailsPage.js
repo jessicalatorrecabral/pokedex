@@ -25,6 +25,7 @@ const PokemonDetailsPage = () => {
         const thisPokemon = pokemons.find((poke)=> {
             return poke.name === name
         }) 
+        
 
         setChosedPokemon(thisPokemon)
     },[])
