@@ -45,6 +45,7 @@ const PokemonCard = ({pokemon, inPokedexPage}) => {
 
     
   }
+ 
 
     return(
         <PokemonCardContainer>

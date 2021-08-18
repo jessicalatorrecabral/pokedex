@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-//import BASE_URL from '../constants/urls/urls'
+import BASE_URL from '../constants/urls/urls'
 import GlobalStateContext from './GlobalStateContext'
 
 const GlobalState = (props) => {
@@ -22,11 +22,11 @@ const GlobalState = (props) => {
             axios.get(poke.url)
             .then((response) => {
                 pokemonList.push(response.data)
-               //if(pokemonList.length === 21){}
+                if(pokemonList.length === 20){
                     const orderedPokemonsList = pokemonList.sort((a,b) => {
                         return a.id - b.id
                     })
-                    setPokemons(orderedPokemonsList)
+                    setPokemons(orderedPokemonsList)}
                
 
             })
@@ -39,7 +39,7 @@ const GlobalState = (props) => {
     },[pokemonNames])
 
     const getPokemons = () => {
-        axios.get('https://pokeapi.co/api/v2/pokemon?limit=0')
+        axios.get('https://pokeapi.co/api/v2/pokemon')
         .then((response)=> {
             setPokemonNames(response.data.results)
             console.log(pokemonNames)

@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+
+
 export const PokemonCardContainer = styled.div`
     display: flex;
     flex-wrap: wrap;

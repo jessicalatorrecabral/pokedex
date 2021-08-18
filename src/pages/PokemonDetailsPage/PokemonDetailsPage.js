@@ -13,8 +13,9 @@ const PokemonDetailsPage = () => {
     const history = useHistory()
     const [chosedPokemon, setChosedPokemon] = useState({})
     const {name} = useParams()
-    const {pokemons} = useContext(GlobalStateContext)
-    const {pokedex} = useContext(GlobalStateContext)
+    const {pokemons, pokedex} = useContext(GlobalStateContext)
+    // const {pokedex} = useContext(GlobalStateContext)
+    
   
     
 
