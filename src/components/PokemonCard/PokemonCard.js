@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import {PokemonCardContainer, ImgContainer, PokemonCardButtons} from './styled'
 import {goToPokemonDetails} from '../../routes/coordinator'
 import {useHistory} from 'react-router-dom'
@@ -7,10 +7,12 @@ import GlobalStateContext from '../../global/GlobalStateContext'
 const PokemonCard = ({pokemon, inPokedexPage}) => {
   console.log(pokemon)
   const history = useHistory()
-
+  const [pokedexPage, setPokedexPage] = useState(false)
   const {pokemons, setPokemons, pokedex, setPokedex} = useContext(GlobalStateContext)
 
   const addPokemon = () => {
+
+    setPokedexPage(true)
     const pokemonIndex = pokemons.findIndex((item) => item.name === pokemon.name)
     const newPokeList = [...pokemons]
     newPokeList.splice(pokemonIndex, 1)
@@ -59,7 +61,7 @@ const PokemonCard = ({pokemon, inPokedexPage}) => {
 
             <button onClick={inPokedexPage ? removePokemon : addPokemon}>{inPokedexPage ? "Remove" : "Add"}</button>
 
-            <button onClick={ ()=>goToPokemonDetails(history, pokemon.name) }>Details</button>
+            <button onClick={ ()=>goToPokemonDetails(history, pokemon.name, pokedexPage) }>Details</button>
 
           </PokemonCardButtons>
           
