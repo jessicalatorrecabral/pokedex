@@ -9,6 +9,10 @@ export const FooterContainer = styled.div`
     margin-top: 90px;
     
 
+    @media(max-width: 800px){
+    }
+    
+
     div:nth-child(2){
         display: flex;
         align-items: center;
@@ -38,6 +42,9 @@ export const FooterContainer = styled.div`
             margin-right: 6px;
         }
 
+        @media(max-width: 800px){
+            font-size: 8px;
+        }
     }
 `
 
@@ -46,6 +53,13 @@ export const Mensagem = styled.div`
     width: 40%;
     text-align: justify;
     font-style: italic;
+
+    @media(max-width: 800px){
+        width: 80%;
+        align-self: center;
+
+        
+    }
 
     
 `
