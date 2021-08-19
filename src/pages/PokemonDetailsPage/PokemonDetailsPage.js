@@ -24,8 +24,23 @@ const PokemonDetailsPage = () => {
         }) 
         
         setChosedPokemon(thisPokemon)
+        
 
     },[])
+
+    useEffect(()=> {
+
+       if(chosedPokemon == undefined){
+           const thisPokemon = pokedex.find((poke)=>{
+            return poke.name === name
+
+           })
+        setChosedPokemon(thisPokemon)
+
+       }
+        
+
+    },[chosedPokemon])
    
 
     return(
