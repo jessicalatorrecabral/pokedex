@@ -9,9 +9,9 @@ Os usuários têm acesso a uma lista de pokémons, onde podem ver os detalhes de
 
 ## 🛠 Tecnologias
 
-<li><img src="src/assets/images/pokebola.png" width="15px"/> React</li>
-<li><img src="src/assets/images/pokebola.png" width="15px"/> JavaScript</li>
-<li><img src="src/assets/images/pokebola.png" width="15px"/> Styled Components</li>
+<p><img src="src/assets/images/pokebola.png" width="15px"/> React</p>
+<p><img src="src/assets/images/pokebola.png" width="15px"/> JavaScript</p>
+<p><img src="src/assets/images/pokebola.png" width="15px"/> Styled Components</p>
 
 ## 📱 Mobile
 
@@ -32,6 +32,6 @@ Os usuários têm acesso a uma lista de pokémons, onde podem ver os detalhes de
 ## 📝 Licença
 
 Este projeto esta sobe a licença MIT.
-<p>Desenvolvido com <img alt="coracao" tittle="coracao" src="src/assets/images/coracao.png" width="20px"/> por Jessica Latorre</p> 👋🏽 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/jessicalatorrecabral)](https://github.com/jessicalatorrecabral) [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jessicalatorre182)](https://www.linkedin.com/in/jessicalatorre182/)
+<p>Desenvolvido com <img alt="coracao" tittle="coracao" src="src/assets/images/coracao.png" width="20px"/> por Jessica Latorre</p> 👋🏽 
 
 
