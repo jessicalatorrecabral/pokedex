@@ -7,40 +7,24 @@ import GlobalStateContext from '../../global/GlobalStateContext'
 
 
 
-const PokemonDetailsPage = (props) => {
+const PokemonDetailsPage = () => {
     
 
     const history = useHistory()
     const [chosedPokemon, setChosedPokemon] = useState({})
-    const {name, pokedexPage} = useParams()
+    const {name} = useParams()
     const {pokemons, pokedex} = useContext(GlobalStateContext)
     // const {pokedex} = useContext(GlobalStateContext)
     
-  
-    
-
     console.log(chosedPokemon)
 
     useEffect(()=> {
-        let thisPokemon
-        if(!pokedexPage){
-            thisPokemon = pokemons.find((poke)=> {
-                return poke.name === name
-            }) 
-            
-            setChosedPokemon(thisPokemon)
-
-        }
+        const thisPokemon = pokemons.find((poke)=> {
+            return poke.name === name
+        }) 
         
-
-        else if(pokedexPage){
-             thisPokemon = pokedex.find((poke)=> {
-                return poke.name === name
-            }) 
-        }
-
         setChosedPokemon(thisPokemon)
-       
+
     },[])
    
 

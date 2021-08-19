@@ -13,7 +13,11 @@ export const PokemonCardContainer = styled.div`
     color: yellow;
     background-color: #2f2f2f;
     box-shadow: 3px 0 #2f2f2f,-3px 0 #2f2f2f, 0 -3px #2f2f2f, 0 3px #2f2f2f,6px 0 #2f2f2f, -6px 0 #2f2f2f, 0 -6px #2f2f2f, 0 6px #2f2f2f, 0 0 0 3px #2f2f2f, 9px 0 black,-9px 0 black,0 9px black,  0 -9px black, 0 -3px 0 3px black, 0 3px 0 3px black,3px 0 0 3px black, -3px 0 0 3px black;
-        
+    
+    @media(max-width: 1080px){
+        width: 80%;
+        margin: 40px auto;
+    }
         
 
 

@@ -8,7 +8,13 @@ export const PokemonDetailsContainer = styled.div`
     padding: 32px;
     box-shadow: 3px 0 #2f2f2f,-3px 0 #2f2f2f, 0 -3px #2f2f2f, 0 3px #2f2f2f,6px 0 #2f2f2f, -6px 0 #2f2f2f, 0 -6px #2f2f2f, 0 6px #2f2f2f, 0 0 0 3px #2f2f2f, 9px 0 black,-9px 0 black,0 9px black,  0 -9px black, 0 -3px 0 3px black, 0 3px 0 3px black,3px 0 0 3px black, -3px 0 0 3px black;
     background-color: #2f2f2f;
+    
+
+    @media(max-width: 800px){
+        flex-direction: column;
+        height: 100%;
         
+    }
 `
 export const FirstContainer = styled.div`
     width:20%;
@@ -16,6 +22,17 @@ export const FirstContainer = styled.div`
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+
+    @media(max-width: 800px){
+        margin: 12px auto;
+        flex-direction: row;
+        width: 100%;
+    
+
+
+       
+        
+    }
     
 `
 export const NameBox = styled.div`
@@ -26,6 +43,19 @@ export const NameBox = styled.div`
     color: yellow;
     box-shadow: 3px 0 #2f2f2f,-3px 0 #2f2f2f, 0 -3px #2f2f2f, 0 3px #2f2f2f,6px 0 #2f2f2f, -6px 0 #2f2f2f, 0 -6px #2f2f2f, 0 6px #2f2f2f, 0 0 0 3px #2f2f2f, 9px 0  rgb(219, 82, 77),-9px 0  rgb(219, 82, 77),0 9px  rgb(219, 82, 77),  0 -9px  rgb(219, 82, 77), 0 -3px 0 3px  rgb(219, 82, 77), 0 3px 0 3px  rgb(219, 82, 77),3px 0 0 3px  rgb(219, 82, 77), -3px 0 0 3px  rgb(219, 82, 77);
     font-family: 'Press Start 2P', cursive;
+
+    @media(max-width: 800px){
+        font-size: 10px;
+        padding: 4px;
+        margin-right: 50px;
+        margin-left: 8px;
+        
+        box-shadow: none;
+        width: 10%;
+      
+      
+        
+    }
     
 `
 
@@ -39,6 +69,20 @@ export const ImagesBox = styled.div`
         img{
             height: 100%;
             width: 80%;
+
+            @media(max-width: 800px){
+                height: 90px;
+                width: 90px;
+                
+                
+            }
+        }
+
+        @media(max-width: 800px){
+            height: 100px;
+          
+            margin-right: 20px;
+            width: 80px;
         }
 
 `
@@ -52,6 +96,12 @@ export const SecondContainer = styled.div`
     background-color: white;
     box-shadow: 3px 0 white,-3px 0 white, 0 -3px white, 0 3px white,6px 0 white, -6px 0 white, 0 -6px white, 0 6px white, 0 0 0 3px white, 9px 0 black,-9px 0 black,0 9px black,  0 -9px black, 0 -3px 0 3px black, 0 3px 0 3px black,3px 0 0 3px black, -3px 0 0 3px black;
     font-family: 'Press Start 2P', cursive;
+
+    @media(max-width: 800px){
+        width: 90%;
+        font-size: 10px;
+        margin: 32px auto;
+    }
 
     
 `
@@ -67,6 +117,12 @@ export const ThirdContainer = styled.div`
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+
+    @media(max-width: 800px){
+        width: 90%;
+        font-size: 10px;
+        margin: 32px auto;
+    }
 `
 export const TypeBox = styled.div`
     width: 100%;
@@ -78,6 +134,11 @@ export const TypeBox = styled.div`
     justify-content: center;
         p:nth-child(1){
         margin-right: 12px;
+    }
+
+    @media(max-width: 800px){
+        box-shadow: none;
+        margin-bottom: 40px;
     }
 `
 
