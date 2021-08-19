@@ -32,6 +32,6 @@ Os usuários têm acesso a uma lista de pokémons, onde podem ver os detalhes de
 ## 📝 Licença
 
 Este projeto esta sobe a licença MIT.
-<p>Desenvolvido com <img alt="coracao" tittle="coracao" src="src/assets/images/coracao.png" width="20px"/> por Jessica Latorre</p> 👋🏽 
+<p>Desenvolvido com <img alt="coracao" tittle="coracao" src="src/assets/images/coracao.png" width="20px"/> por Jessica Latorre</p> 👋🏽 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/jessicalatorrecabral)](https://github.com/jessicalatorrecabral) [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jessicalatorre182)](https://www.linkedin.com/in/jessicalatorre182/)
 
 
