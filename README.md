@@ -1,6 +1,9 @@
 <h1 align="center">
     <img alt="PokemonLogo" src="src/assets/images/pokemonLogo.png" width="300px"/>
+    
 </h1>
+<h3>Acesse a Pokédex <a href="https://dear-week.surge.sh/">aqui</a></h3>
+
 
 ## 💻 Sobre o projeto
  Pokédex - é um projeto simples e de natureza didática usando a <a href="https://pokeapi.co/">PokéAPI</a> construído durante o bootcamp de Desenvolvimento Front-end com React da <a href="http://www.labenu.com.br/">Labenu</a>.
