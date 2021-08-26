@@ -32,9 +32,7 @@ Os usuários têm acesso a uma lista de pokémons, onde podem ver os detalhes de
   <img alt="pokedex DetailsDesktop" title="pokedex DetailsDesktop" src="src/assets/images/details-desktop.png" width="200px">
 </p>
 
-## 📝 Licença
 
-Este projeto esta sobe a licença MIT.
 <p>Desenvolvido com <img alt="coracao" tittle="coracao" src="src/assets/images/coracao.png" width="20px"/> por Jessica Latorre</p> 👋🏽 
 
 
